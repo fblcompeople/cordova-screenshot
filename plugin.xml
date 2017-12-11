@@ -46,4 +46,11 @@
         <header-file src="src/osx/Screenshot.h" />
         <source-file src="src/osx/Screenshot.m" />
     </platform>
+	<!-- windows -->
+	<platform name="windows">
+        <js-module src="src/windows/screenshot-proxy.js" name="Screenshot">
+            <merges target="" />
+        </js-module>
+       <framework src="src/windows/ScreenshotRuntimeComponent.winmd" custom="true"/>
+    </platform>
 </plugin>
