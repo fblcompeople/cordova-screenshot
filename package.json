@@ -1,6 +1,6 @@
 {
   "name": "de.compeople.cordova.screenshot",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "Screenshot Plugin for Apache Cordova",
   "cordova": {
     "id": "de.compeople.cordova.screenshot",
@@ -21,7 +21,8 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
-    "cordova-osx"
+    "cordova-osx",
+	"cordova-windows"
   ],
   "engines": [
     {
@@ -29,7 +30,7 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "fbl (compeople)",
+  "author": "compeople",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fblcompeople/cordova-screenshot/issues"
