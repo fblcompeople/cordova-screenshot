@@ -1,6 +1,6 @@
 {
   "name": "de.compeople.cordova.screenshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Screenshot Plugin for Apache Cordova",
   "cordova": {
     "id": "de.compeople.cordova.screenshot",
