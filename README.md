@@ -1,12 +1,22 @@
-cordova-screenshot
+de.compeople.cordova.screenshot
 ==================
 
-## how to install
+## How to install
 
-install it via cordova cli
+Install it via cordova cli
 
 ```
 cordova plugin add de.compeople.cordova.screenshot
 ```
 
 This plugins is based on the work of https://github.com/gitawego/cordova-screenshot
+
+
+### Modifications
+- Added windows support
+  - implemented ```new Screenshot().URI()```
+  - requires Windows 1709 (Fall Creators Update)
+  
+### Known limitations
+- Screenshot also includes titlebar when application is running in window mode
+- ```new Screenshot().save()```-Method is not implemented
