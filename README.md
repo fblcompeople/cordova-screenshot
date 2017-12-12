@@ -9,11 +9,11 @@ Install it via cordova cli
 cordova plugin add de.compeople.cordova.screenshot
 ```
 
-This plugins is based on the work of https://github.com/gitawego/cordova-screenshot
+This plugin is based on https://github.com/gitawego/cordova-screenshot that enables Cordova-powered applications to take screenshots on iOS, macOS and Android. We added Windows support.
 
 
 ### Modifications
-- Added windows support
+- Added Windows support
   - implemented ```new Screenshot().URI()```
   - requires Windows 1709 (Fall Creators Update)
   
